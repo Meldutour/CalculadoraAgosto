@@ -74,5 +74,6 @@ function mas() {
 }
 
 function igual() {
-    document.querySelector('.resultado').innerHTML += '='
+    var cuenta = document.querySelector('.resultado').innerHTML 
+    document.querySelector('.resultado').innerHTML = eval(cuenta)
 }
